@@ -1,0 +1,31 @@
+Implement Phase 10: scrolling ocean/environment system.
+
+Create:
+- scenes/environment/Ocean.tscn
+- scripts/environment/ocean_scroller.gd
+- scenes/environment/CloudLayer.tscn
+- scripts/environment/cloud_scroller.gd
+- scripts/environment/environment_spawner.gd
+
+Ocean should:
+- provide a placeholder water plane
+- scroll visually downward to create flight motion
+- support future water material/shader replacement
+
+CloudLayer should:
+- spawn simple semi-transparent cloud placeholders
+- scroll at a different speed than ocean
+- not block gameplay readability
+
+EnvironmentSpawner should eventually support:
+- islands
+- ships
+- smoke columns
+- carriers
+- wake trails
+
+Acceptance criteria:
+- Ocean/background scrolls continuously.
+- Player appears to fly forward.
+- Clouds or placeholders move at a different speed.
+- Gameplay remains readable.

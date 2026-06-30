@@ -1,0 +1,28 @@
+Implement Phase 19: performance and cleanup pass.
+
+Review the project for:
+- excessive instantiation
+- bullets not cleaning up
+- effects not cleaning up
+- unused scripts
+- giant scripts that should be split
+- repeated code
+- weak signal connections
+- hard-coded paths that should be exported variables
+- missing error handling for JSON loading
+
+Improve:
+- object pooling
+- cleanup logic
+- JSON load validation
+- scene references
+- comments where helpful
+- docs/known_issues.md
+
+Do not change gameplay feel unless needed for a bug fix.
+
+Acceptance criteria:
+- Gameplay still works.
+- No obvious memory leaks from bullets/effects.
+- JSON loading has graceful error messages.
+- docs/known_issues.md is updated.

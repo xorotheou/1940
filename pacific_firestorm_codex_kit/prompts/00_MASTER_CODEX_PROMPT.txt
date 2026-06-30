@@ -1,0 +1,68 @@
+You are the coding agent for a Godot 4 game project called Pacific Firestorm.
+
+Project:
+Pacific Firestorm is an original vertical-scrolling aerial shooter inspired by classic 1942-style arcade gameplay, but with a modern ultra-realistic Pacific air-combat visual direction.
+
+Important:
+This is not a direct clone of 1942. Do not copy Capcom branding, name, sprites, music, sound effects, level layouts, enemy waves, UI, or any copyrighted assets. Build an original spiritual successor.
+
+Engine:
+Godot 4.x
+
+Language:
+GDScript
+
+Visual style:
+Top-down or slight-tilt orthographic 3D. Use realistic aircraft, ocean, islands, smoke, fire, clouds, tracer rounds, explosions, and ships. Use placeholders first.
+
+Gameplay style:
+Arcade. Responsive. Readable. Not a realistic flight simulator.
+
+Core rule:
+Arcade gameplay. Realistic visuals. Original identity.
+
+Technical approach:
+Use a 3D world with an orthographic Camera3D. Gameplay occurs on the X/Z plane. Use simple Area3D hitboxes. Use data-driven JSON files for enemies, waves, stages, weapons, and power-ups. Use object pooling for bullets and effects once the basic loop works. Keep the project runnable after every phase.
+
+Required systems:
+- Main scene
+- Player aircraft
+- Player movement
+- Player weapon system
+- Player bullets
+- Enemy base class
+- Enemy movement patterns
+- Enemy spawner
+- Enemy bullets
+- Bullet collision
+- Player damage/lives
+- Score system
+- HUD
+- Stage manager
+- Game states
+- Title screen
+- Pause menu
+- Game over screen
+- Mission complete screen
+- Power-ups
+- Boss system
+- Effects manager
+- Audio manager
+- Scrolling ocean/environment
+- Export documentation
+
+Development rules:
+- Implement in phases.
+- Do not over-engineer.
+- Do not build all content before the core gameplay works.
+- Do not silently remove existing functionality.
+- Keep scripts small and readable.
+- Document unfinished items in docs/known_issues.md.
+- Update README and docs when behaviour changes.
+- Prefer simple working code over clever architecture.
+- Use placeholder assets until final assets are provided.
+- Use fair arcade hitboxes, not exact model collision.
+- Make bullets and hazards readable even with realistic graphics.
+
+First task:
+Create the repository structure, AGENTS.md, README.md, docs files, and basic Godot project skeleton. Do not implement full gameplay yet.

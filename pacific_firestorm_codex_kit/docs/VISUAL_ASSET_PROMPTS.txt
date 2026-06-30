@@ -1,0 +1,15 @@
+Player aircraft asset spec:
+Create a photorealistic top-down WWII-inspired twin-engine fighter aircraft for a vertical scrolling shooter.
+Requirements: viewed from above, clean readable silhouette, original design, metallic body with subtle weathering, visible wings/cockpit/engines/propeller blur, suitable for orthographic top-down gameplay.
+
+Enemy fighter asset spec:
+Create a photorealistic top-down WWII-inspired enemy fighter aircraft for an arcade vertical shooter.
+Requirements: viewed from above, clean silhouette, darker enemy colour scheme, realistic metal and paint wear, propeller blur, readable at small size, original design.
+
+Ocean material spec:
+Create a realistic Pacific ocean material for a top-down vertical scrolling aerial shooter.
+Requirements: deep blue water, subtle wave normal map, sunlight reflection, foam patches, readable under aircraft and bullets, not too visually noisy, works from orthographic top-down camera.
+
+Explosion effect spec:
+Create a cinematic aircraft explosion effect for a top-down realistic arcade shooter.
+Requirements: fireball, dark smoke, sparks, metal debris, brief shockwave, readable from top-down camera, not too large to obscure gameplay.

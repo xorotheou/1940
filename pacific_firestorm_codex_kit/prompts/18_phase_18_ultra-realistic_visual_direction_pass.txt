@@ -1,0 +1,35 @@
+Implement Phase 18: visual realism preparation.
+
+Do not add heavy final assets yet unless they already exist.
+
+Create documentation and placeholder material system for:
+- realistic aircraft models
+- ocean material
+- cloud layers
+- explosion particles
+- smoke trails
+- tracer bullets
+- aircraft shadows
+- water splashes
+- ship wakes
+- island chunks
+
+Update:
+- docs/art_direction.md
+- docs/technical_plan.md
+- assets/materials/README.md
+- assets/models/README.md
+- assets/textures/README.md
+
+If useful, create simple placeholder materials:
+- aircraft metal
+- ocean blue
+- smoke dark
+- tracer glow
+- explosion fire
+
+Acceptance criteria:
+- Project has clear asset replacement pipeline.
+- Placeholder materials exist or are documented.
+- Art direction explains top-down realistic style.
+- Gameplay remains readable.

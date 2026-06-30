@@ -1,0 +1,36 @@
+Run the complete Pacific Firestorm V1 build loop.
+
+Goal:
+Deliver a finished playable V1 Godot 4 game, not a demo and not a placeholder prototype.
+
+Execution loop:
+- Inspect current repository.
+- Read the V1 specification and definition of done.
+- Build missing systems in priority order.
+- After every change, run available checks.
+- Fix all errors before moving on.
+- Continue until V1 gates pass.
+
+Priority order:
+1. Godot project integrity.
+2. Main scene and game state framework.
+3. Import uploaded aircraft assets as final V1 Sprite3D aircraft scenes.
+4. Player movement, shooting, damage, lives, bomb/special.
+5. Enemy base, enemy bullets, collision, score.
+6. Wave/stage data system.
+7. Five complete missions.
+8. Boss/set-piece system.
+9. Power-ups and weapon upgrades.
+10. UI screens: title, options, controls, pause, game over, mission complete, campaign complete.
+11. Ocean, islands, clouds, ships/carrier, shadows, propeller blur, effects.
+12. Audio and generated/owned sound assets.
+13. High score persistence.
+14. Automated data validation/smoke tests.
+15. No-placeholder audit.
+16. Export preset and release packaging.
+17. Final V1 audit and release notes.
+
+Stop condition:
+Only stop when all V1 Definition of Done gates pass, or when a blocker exists that cannot be solved in this environment. If blocked, create BLOCKERS.md and continue any work that does not require the blocker.
+
+Do not ask the user for more decisions unless the project is blocked. Make reasonable production decisions and document them.

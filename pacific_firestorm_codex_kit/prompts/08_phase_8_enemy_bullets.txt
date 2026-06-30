@@ -1,0 +1,25 @@
+Implement Phase 8: enemy bullet system.
+
+Create:
+- scenes/bullets/EnemyBullet.tscn
+- script support in bullet_base.gd or separate enemy_bullet.gd
+
+Enemy bullets should:
+- be visible and readable
+- move downward or toward player depending on mode
+- use Area3D collision
+- damage player on contact
+- clean up offscreen
+
+Update EnemyFighter:
+- optional fire_timer
+- simple downward shooting
+- configurable fire_interval
+- configurable bullet_scene
+
+Acceptance criteria:
+- Enemies fire bullets.
+- Enemy bullets are readable on screen.
+- Enemy bullets damage the player.
+- Enemy bullets clean up when offscreen.
+- Bullet collision does not damage enemies incorrectly.

@@ -1,0 +1,10 @@
+Player movement is broken:
+
+Observed:
+[describe]
+
+Expected:
+The player should move on the X/Z plane using move_left, move_right, move_up, move_down and stay inside playfield bounds.
+
+Check player.gd, input actions, Main.tscn node references, and project.godot input map.
+Fix only the movement/input issue.

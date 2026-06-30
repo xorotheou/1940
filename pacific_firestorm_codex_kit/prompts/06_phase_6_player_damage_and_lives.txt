@@ -1,0 +1,23 @@
+Implement Phase 6: player damage and lives.
+
+Add to player:
+- take_damage(amount)
+- invulnerability window after hit
+- visual hit flash placeholder
+- signal player_hit
+- signal player_destroyed
+
+Update GameState:
+- reduce lives when player is hit
+- trigger game over when lives reach zero
+- reset or respawn player after hit if lives remain
+
+For now, allow collision with enemy aircraft to damage player.
+Enemy bullets can be added later.
+
+Acceptance criteria:
+- Colliding with an enemy damages the player.
+- Player briefly becomes invulnerable after damage.
+- Lives decrease on HUD.
+- Game over state triggers when lives reach zero.
+- Player is not instantly killed multiple times by one collision.

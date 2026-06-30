@@ -1,0 +1,28 @@
+Implement Phase 20: export preparation.
+
+Create documentation for:
+- how to export Windows build
+- how to export Linux build
+- how to export web build later
+- how to export Android later
+- how to replace placeholder assets
+- how to test controls
+- how to package the game
+
+Create:
+- docs/export_guide.md
+- docs/testing_checklist.md
+- docs/release_checklist.md
+
+Add:
+- credits template
+- license note
+- asset license tracking file
+
+Do not assume final commercial release.
+This is a prototype release package.
+
+Acceptance criteria:
+- Developer can follow docs/export_guide.md.
+- testing_checklist.md covers core gameplay.
+- release_checklist.md covers final manual checks.

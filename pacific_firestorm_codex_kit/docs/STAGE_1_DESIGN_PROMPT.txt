@@ -1,0 +1,23 @@
+Design and implement Stage 1: Open Pacific.
+
+Theme:
+Calm Pacific ocean, small islands, scattered clouds, early enemy patrols.
+
+Gameplay duration:
+2 to 4 minutes for prototype.
+
+Stage flow:
+1. Opening calm ocean with two small fighter waves.
+2. Diagonal fighter wave from left and right.
+3. First bomber enters center with escort fighters.
+4. Power-up drop after bomber.
+5. Enemy bullets increase slightly.
+6. Mini-wave of sine-wave fighters.
+7. Boss warning.
+8. BossBomber appears.
+9. Boss has 3 phases.
+10. Mission complete screen after boss defeat.
+
+Use data-driven JSON waves.
+Do not hard-code the full stage in scripts.
+Update docs/game_design.md with Stage 1 notes.

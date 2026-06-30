@@ -1,0 +1,55 @@
+{
+  "project": [
+    "opens",
+    "main_scene_runs",
+    "no_parse_errors",
+    "no_missing_critical_resources"
+  ],
+  "campaign": [
+    "mission_1_complete",
+    "mission_2_complete",
+    "mission_3_complete",
+    "mission_4_complete",
+    "mission_5_complete",
+    "campaign_complete_screen"
+  ],
+  "combat": [
+    "movement",
+    "shooting",
+    "special_bomb",
+    "player_damage",
+    "enemy_waves",
+    "enemy_bullets",
+    "boss_phases",
+    "powerups",
+    "score",
+    "high_score"
+  ],
+  "assets": [
+    "six_uploaded_planes_used",
+    "aircraft_shadows",
+    "propeller_blur",
+    "ocean",
+    "islands",
+    "ships",
+    "clouds",
+    "explosions",
+    "ui",
+    "audio"
+  ],
+  "no_placeholder": [
+    "no_visible_placeholder_assets",
+    "no_dummy_buttons",
+    "no_todo_text_in_playable_route",
+    "no_missing_textures",
+    "no_silent_gameplay"
+  ],
+  "release": [
+    "export_preset",
+    "release_notes",
+    "test_results",
+    "final_audit",
+    "known_limitations",
+    "asset_license_notes"
+  ]
+}

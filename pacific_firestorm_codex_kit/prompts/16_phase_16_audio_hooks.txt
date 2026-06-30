@@ -1,0 +1,26 @@
+Implement Phase 16: audio manager and audio hooks.
+
+Create:
+- scripts/systems/audio_manager.gd
+- placeholder references for:
+  - player_fire
+  - enemy_destroyed
+  - player_hit
+  - powerup_collect
+  - boss_appear
+  - mission_complete
+  - game_over
+  - menu_select
+  - stage_music
+
+Requirements:
+- Use AudioStreamPlayer or AudioStreamPlayer3D appropriately.
+- Do not require final audio assets.
+- If placeholder audio files are missing, fail gracefully without errors.
+- Add documentation explaining where to place audio files.
+
+Acceptance criteria:
+- Gameplay calls audio hooks.
+- Missing audio does not crash the game.
+- Volume can be controlled globally later.
+- README explains audio asset placement.

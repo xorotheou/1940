@@ -1,0 +1,34 @@
+{
+  "fighter": {
+    "scene": "res://scenes/enemies/EnemyFighter.tscn",
+    "health": 2,
+    "score_value": 100,
+    "speed": 6.0,
+    "fire_interval": 2.0,
+    "drop_chance": 0.05
+  },
+  "heavy_fighter": {
+    "scene": "res://scenes/enemies/EnemyFighter.tscn",
+    "health": 5,
+    "score_value": 250,
+    "speed": 4.0,
+    "fire_interval": 1.5,
+    "drop_chance": 0.08
+  },
+  "bomber": {
+    "scene": "res://scenes/enemies/EnemyBomber.tscn",
+    "health": 12,
+    "score_value": 800,
+    "speed": 2.5,
+    "fire_interval": 1.2,
+    "drop_chance": 0.25
+  },
+  "boss_bomber": {
+    "scene": "res://scenes/enemies/BossBomber.tscn",
+    "health": 150,
+    "score_value": 5000,
+    "speed": 1.2,
+    "fire_interval": 0.9,
+    "drop_chance": 0.0
+  }
+}

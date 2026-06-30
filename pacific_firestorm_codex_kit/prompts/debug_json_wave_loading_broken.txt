@@ -1,0 +1,17 @@
+Enemy wave loading is broken:
+
+Observed:
+[describe]
+
+Expected:
+EnemySpawner should load data/waves/stage_01_waves.json and spawn enemies at the specified times.
+
+Check:
+- JSON file path
+- JSON syntax
+- FileAccess usage
+- parsed data validation
+- enemy type mapping
+- scene preload/instantiate logic
+
+Fix the loader and add graceful error messages.

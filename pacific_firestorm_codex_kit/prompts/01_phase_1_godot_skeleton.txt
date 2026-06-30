@@ -1,0 +1,42 @@
+Implement Phase 1: Godot project skeleton.
+
+Create or update:
+- project.godot
+- scenes/main/Main.tscn
+- scripts/main/main.gd
+
+Main.tscn should contain:
+- root Node3D named Main
+- WorldRoot Node3D
+- Camera3D using orthographic projection
+- DirectionalLight3D
+- WorldEnvironment if appropriate
+- PlaceholderOcean Node3D
+- PlayerSpawn Node3D
+- EnemyRoot Node3D
+- PlayerBulletRoot Node3D
+- EnemyBulletRoot Node3D
+- EffectsRoot Node3D
+- UI CanvasLayer placeholder if practical
+
+main.gd should:
+- initialize the scene
+- print a startup message
+- expose references to important child roots
+- not implement advanced gameplay yet
+
+Set up basic input actions in project.godot:
+- move_left
+- move_right
+- move_up
+- move_down
+- fire
+- bomb
+- evade
+- pause
+
+Acceptance criteria:
+- Godot project opens.
+- Main.tscn can be set as the main scene.
+- Running the scene shows a camera, light, and placeholder world.
+- No script parse errors.

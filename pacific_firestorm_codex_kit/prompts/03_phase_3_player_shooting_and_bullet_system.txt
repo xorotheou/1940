@@ -1,0 +1,30 @@
+Implement Phase 3: player shooting and bullet system.
+
+Create:
+- scenes/bullets/PlayerBullet.tscn
+- scripts/bullets/bullet_base.gd
+- scripts/player/player_weapon.gd if useful
+
+PlayerBullet.tscn should:
+- be an Area3D
+- have a visible placeholder tracer/bullet mesh
+- have a CollisionShape3D
+- move forward/up-screen along the gameplay direction
+- destroy or deactivate itself when offscreen
+
+Implement:
+- fire cooldown
+- dual gun firing from LeftGun and RightGun
+- configurable bullet speed
+- configurable bullet damage
+- a simple bullet lifetime/offscreen cleanup
+
+Prefer simple working implementation first.
+If object pooling is not implemented yet, document that pooling will be added later in docs/known_issues.md.
+
+Acceptance criteria:
+- Pressing fire shoots bullets.
+- Bullets spawn from the player gun points.
+- Bullets travel upward/forward.
+- Bullets disappear when offscreen.
+- No errors when firing repeatedly.

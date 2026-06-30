@@ -1,0 +1,27 @@
+Implement Phase 15: effects pass.
+
+Create:
+- scenes/effects/Explosion.tscn
+- scenes/effects/SmokeTrail.tscn
+- scenes/effects/HitSpark.tscn
+- scenes/effects/WaterSplash.tscn
+- scripts/effects/explosion.gd
+- scripts/effects/effects_manager.gd
+- scripts/effects/screen_shake.gd
+
+Effects:
+- enemy death explosion
+- bullet hit spark
+- boss damage smoke
+- aircraft water crash splash
+- small screen shake on big explosions
+- no excessive visual clutter
+
+Use placeholders if no final particles/materials exist.
+
+Acceptance criteria:
+- Enemy death spawns explosion.
+- Bullet hit spawns hit spark.
+- Boss damage can show smoke.
+- Effects clean themselves up or return to pool.
+- Screen shake does not make gameplay unreadable.

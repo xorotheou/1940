@@ -1,0 +1,9 @@
+The Godot project has this error:
+
+[paste exact error]
+
+Please fix the smallest possible cause.
+Do not rewrite unrelated systems.
+Explain which file/path caused it.
+Keep the project runnable.
+Update docs/known_issues.md if the issue reveals an unfinished system.

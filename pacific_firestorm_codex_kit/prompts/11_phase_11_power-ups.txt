@@ -1,0 +1,31 @@
+Implement Phase 11: power-up system.
+
+Create:
+- scenes/powerups/Powerup.tscn
+- scripts/powerups/powerup.gd
+- data/powerups/powerup_types.json
+
+Power-up types:
+- weapon_upgrade
+- repair
+- bomb
+- score_bonus
+- rapid_fire_temporary
+
+Powerups should:
+- move downward slowly
+- have clear visual placeholder
+- be collected by player
+- apply effect through player or GameState
+- clean up offscreen
+
+Update enemies:
+- allow optional drop_chance
+- allow optional drop_type
+
+Acceptance criteria:
+- Enemies can drop power-ups.
+- Player can collect power-ups.
+- Weapon upgrade changes player firing pattern or bullet count.
+- Repair increases lives or health according to current design.
+- HUD updates if relevant.

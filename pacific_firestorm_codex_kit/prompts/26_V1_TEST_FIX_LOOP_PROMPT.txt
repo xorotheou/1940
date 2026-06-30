@@ -1,0 +1,33 @@
+Run the V1 test-fix loop.
+
+1. Detect Godot executable:
+   - try `godot --help`
+   - try `godot4 --help`
+   - use whichever works
+
+2. Run available checks:
+   - project load/import check
+   - main scene run/headless smoke check where possible
+   - data validation tests
+   - scene existence checks
+   - no-placeholder scan
+   - campaign data scan
+
+3. For every failure:
+   - record exact error in docs/TEST_RESULTS_V1.md
+   - fix smallest root cause
+   - re-run the failed check
+   - repeat until pass
+
+4. Manual reasoning checks:
+   - verify that missions 1-5 can progress from data definitions
+   - verify all enemy types referenced by waves exist
+   - verify all scenes referenced by data exist
+   - verify all core UI states are reachable
+
+5. If Godot cannot run in this environment:
+   - create BLOCKERS.md
+   - still run all non-Godot validations
+   - do not claim runtime testing passed
+
+Do not add new features while fixing tests unless required to satisfy a failed V1 gate.

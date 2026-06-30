@@ -1,0 +1,22 @@
+Perform a strict V1 no-placeholder replacement pass.
+
+Goal:
+Remove all player-facing placeholder content from Pacific Firestorm V1.
+
+Rules:
+- Uploaded plane sprites are final V1 aircraft assets.
+- Procedural/original generated environment, UI, audio, and effects are acceptable if coherent.
+- Grey cubes, dummy scenes, TODO screens, missing audio, missing textures, default Godot icons, and visibly temporary content are not acceptable.
+
+Tasks:
+1. Search repo for placeholder/temp/TODO/stub/dummy/not implemented.
+2. Classify each occurrence as documentation-only or player-facing.
+3. Replace every player-facing placeholder.
+4. Ensure the playable route has final V1 assets.
+5. Create docs/NO_PLACEHOLDER_AUDIT_V1.md.
+6. Update docs/KNOWN_LIMITATIONS_V1.md only for limitations that do not break V1.
+
+Acceptance:
+- Normal gameplay route shows no placeholder content.
+- Menus are functional.
+- Aircraft, bullets, environment, effects, UI, and audio are intentional V1 content.

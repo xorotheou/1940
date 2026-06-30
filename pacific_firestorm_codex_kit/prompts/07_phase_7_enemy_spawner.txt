@@ -1,0 +1,34 @@
+Implement Phase 7: enemy spawner.
+
+Create:
+- scripts/enemies/enemy_spawner.gd
+- data/waves/stage_01_waves.json
+- data/enemies/enemy_types.json
+
+EnemySpawner should:
+- load wave data from JSON
+- track stage time
+- spawn enemies at defined times
+- support enemy_type
+- support spawn_x
+- support spawn_z
+- support movement_pattern
+- support formation_id or group_id if simple
+
+Use EnemyFighter.tscn as the first enemy type.
+
+Example wave entry:
+{
+  "time": 1.0,
+  "enemy_type": "fighter",
+  "spawn_x": -3.0,
+  "spawn_z": -16.0,
+  "movement": "straight_down"
+}
+
+Acceptance criteria:
+- Stage wave JSON is loaded.
+- Enemies spawn according to time.
+- At least 10 enemies spawn during a short test wave.
+- Enemy movement pattern is applied.
+- The system is data-driven, not hard-coded.
