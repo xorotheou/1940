@@ -1,0 +1,36 @@
+Implement Phase 5: bullet-enemy collision and score.
+
+Create:
+- scripts/main/game_state.gd
+- scripts/ui/hud.gd
+- scenes/ui/HUD.tscn
+
+GameState should track:
+- score
+- lives
+- bombs
+- current_stage
+- game_over state
+
+HUD should display:
+- score
+- lives
+- bombs
+- stage name
+
+Connect bullet collision:
+- PlayerBullet detects enemy Area3D.
+- If collided object has take_damage(), call it.
+- Bullet disappears or deactivates after hit.
+- Enemy emits died(score_value).
+- GameState adds score.
+- HUD updates score.
+
+Keep the implementation simple and robust.
+
+Acceptance criteria:
+- Player bullets damage enemies.
+- Enemy dies when health reaches zero.
+- Score increases when enemy dies.
+- HUD updates score.
+- No duplicate score from one enemy death.

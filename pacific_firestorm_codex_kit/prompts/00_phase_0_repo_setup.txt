@@ -1,0 +1,34 @@
+You are working on a new Godot 4 GDScript project called Pacific Firestorm.
+
+Before implementing gameplay, set up the repository structure and project documentation.
+
+Create:
+- AGENTS.md
+- README.md
+- docs/game_design.md
+- docs/art_direction.md
+- docs/technical_plan.md
+- docs/controls.md
+- docs/codex_tasks.md
+- docs/known_issues.md
+- docs/legal_notes.md
+- .github/pull_request_template.md
+
+Create the folder structure:
+- scenes/
+- scripts/
+- data/
+- assets/
+- docs/
+
+Use the structure described in AGENTS.md.
+
+Do not implement gameplay yet.
+Do not add copyrighted assets.
+Use clear markdown documentation.
+
+Acceptance criteria:
+- The repository has the expected folders.
+- AGENTS.md gives coding and design rules.
+- README.md explains how the project will be opened and run later.
+- docs/legal_notes.md states that this is an original game inspired by classic arcade shooters, not a direct clone.

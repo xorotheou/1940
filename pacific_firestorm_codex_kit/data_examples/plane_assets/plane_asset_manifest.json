@@ -1,0 +1,112 @@
+{
+  "planes": [
+    {
+      "id": "PF_PLANE_01_PLAYER_TWIN_BOOM",
+      "role": "player_aircraft",
+      "description": "Silver twin-boom fighter-style top-down aircraft. Recommended as the initial player plane placeholder/reference.",
+      "notes": "Wide wingspan, distinctive silhouette, best for player readability.",
+      "raw_jpg": "assets/plane_assets/raw_jpg/pf_plane_01_player_twin_boom_p38_style.jpg",
+      "transparent_png": "assets/plane_assets/transparent_png/pf_plane_01_player_twin_boom_p38_style_transparent.png",
+      "preview_512_png": "assets/plane_assets/preview_512_png/pf_plane_01_player_twin_boom_p38_style_preview_512.png",
+      "source_dimensions": {
+        "width": 1536,
+        "height": 1229
+      },
+      "recommended_godot_usage": {
+        "import_as": "Texture2D sprite/billboard placeholder or reference for MeshInstance3D model creation",
+        "orientation": "nose/up-screen; movement plane X/Z; camera orthographic top-down",
+        "collision": "use simplified Area3D hitbox, not exact image silhouette"
+      }
+    },
+    {
+      "id": "PF_PLANE_02_ENEMY_LIGHT_FIGHTER_DARK",
+      "role": "enemy_light_fighter",
+      "description": "Dark green single-engine fighter on black background. Good for enemy light fighter / ace variant.",
+      "notes": "High contrast dark enemy plane; background removed in processed PNG.",
+      "raw_jpg": "assets/plane_assets/raw_jpg/pf_plane_02_enemy_light_fighter_dark.jpg",
+      "transparent_png": "assets/plane_assets/transparent_png/pf_plane_02_enemy_light_fighter_dark_transparent.png",
+      "preview_512_png": "assets/plane_assets/preview_512_png/pf_plane_02_enemy_light_fighter_dark_preview_512.png",
+      "source_dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "recommended_godot_usage": {
+        "import_as": "Texture2D sprite/billboard placeholder or reference for MeshInstance3D model creation",
+        "orientation": "nose/up-screen; movement plane X/Z; camera orthographic top-down",
+        "collision": "use simplified Area3D hitbox, not exact image silhouette"
+      }
+    },
+    {
+      "id": "PF_PLANE_03_ENEMY_TWIN_ENGINE_BOMBER",
+      "role": "enemy_bomber",
+      "description": "Green twin-engine bomber viewed from above. Recommended for bomber waves and mini-boss escorts.",
+      "notes": "Long fuselage; use larger hitbox than fighter but still arcade-fair.",
+      "raw_jpg": "assets/plane_assets/raw_jpg/pf_plane_03_enemy_twin_engine_bomber.jpg",
+      "transparent_png": "assets/plane_assets/transparent_png/pf_plane_03_enemy_twin_engine_bomber_transparent.png",
+      "preview_512_png": "assets/plane_assets/preview_512_png/pf_plane_03_enemy_twin_engine_bomber_preview_512.png",
+      "source_dimensions": {
+        "width": 1229,
+        "height": 1536
+      },
+      "recommended_godot_usage": {
+        "import_as": "Texture2D sprite/billboard placeholder or reference for MeshInstance3D model creation",
+        "orientation": "nose/up-screen; movement plane X/Z; camera orthographic top-down",
+        "collision": "use simplified Area3D hitbox, not exact image silhouette"
+      }
+    },
+    {
+      "id": "PF_PLANE_04_ENEMY_CAMO_FIGHTER",
+      "role": "enemy_camo_fighter",
+      "description": "Camouflaged single-engine fighter viewed from above. Good for elite enemy or island-defense squadron.",
+      "notes": "Busy camouflage; use outline/glow in-game if readability drops over ocean/islands.",
+      "raw_jpg": "assets/plane_assets/raw_jpg/pf_plane_04_enemy_camo_fighter.jpg",
+      "transparent_png": "assets/plane_assets/transparent_png/pf_plane_04_enemy_camo_fighter_transparent.png",
+      "preview_512_png": "assets/plane_assets/preview_512_png/pf_plane_04_enemy_camo_fighter_preview_512.png",
+      "source_dimensions": {
+        "width": 1229,
+        "height": 1536
+      },
+      "recommended_godot_usage": {
+        "import_as": "Texture2D sprite/billboard placeholder or reference for MeshInstance3D model creation",
+        "orientation": "nose/up-screen; movement plane X/Z; camera orthographic top-down",
+        "collision": "use simplified Area3D hitbox, not exact image silhouette"
+      }
+    },
+    {
+      "id": "PF_PLANE_05_ENEMY_LIGHT_FIGHTER_WHITE",
+      "role": "enemy_light_fighter_alt",
+      "description": "Light-coloured single-engine fighter viewed from above. Useful as alternate fighter, early-stage enemy, or power-up escort.",
+      "notes": "Good silhouette; may need darker outline over bright clouds.",
+      "raw_jpg": "assets/plane_assets/raw_jpg/pf_plane_05_enemy_light_fighter_white.jpg",
+      "transparent_png": "assets/plane_assets/transparent_png/pf_plane_05_enemy_light_fighter_white_transparent.png",
+      "preview_512_png": "assets/plane_assets/preview_512_png/pf_plane_05_enemy_light_fighter_white_preview_512.png",
+      "source_dimensions": {
+        "width": 1229,
+        "height": 1536
+      },
+      "recommended_godot_usage": {
+        "import_as": "Texture2D sprite/billboard placeholder or reference for MeshInstance3D model creation",
+        "orientation": "nose/up-screen; movement plane X/Z; camera orthographic top-down",
+        "collision": "use simplified Area3D hitbox, not exact image silhouette"
+      }
+    },
+    {
+      "id": "PF_PLANE_06_BOSS_SUPER_BOMBER",
+      "role": "boss_super_bomber",
+      "description": "Large six-engine bomber viewed from above. Recommended as Stage 1/2 boss placeholder or late-game heavy boss reference.",
+      "notes": "Very large wingspan; use boss health bar and multi-part damage points.",
+      "raw_jpg": "assets/plane_assets/raw_jpg/pf_plane_06_boss_super_bomber.jpg",
+      "transparent_png": "assets/plane_assets/transparent_png/pf_plane_06_boss_super_bomber_transparent.png",
+      "preview_512_png": "assets/plane_assets/preview_512_png/pf_plane_06_boss_super_bomber_preview_512.png",
+      "source_dimensions": {
+        "width": 1229,
+        "height": 1536
+      },
+      "recommended_godot_usage": {
+        "import_as": "Texture2D sprite/billboard placeholder or reference for MeshInstance3D model creation",
+        "orientation": "nose/up-screen; movement plane X/Z; camera orthographic top-down",
+        "collision": "use simplified Area3D hitbox, not exact image silhouette"
+      }
+    }
+  ]
+}

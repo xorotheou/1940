@@ -1,0 +1,28 @@
+{
+  "weapon_upgrade": {
+    "label": "Weapon Upgrade",
+    "effect": "increase_weapon_level",
+    "duration": 0
+  },
+  "repair": {
+    "label": "Repair",
+    "effect": "restore_life_or_health",
+    "duration": 0
+  },
+  "bomb": {
+    "label": "Bomb",
+    "effect": "add_bomb",
+    "duration": 0
+  },
+  "score_bonus": {
+    "label": "Score Bonus",
+    "effect": "add_score",
+    "amount": 1000,
+    "duration": 0
+  },
+  "rapid_fire_temporary": {
+    "label": "Rapid Fire",
+    "effect": "temporary_fire_rate_boost",
+    "duration": 8
+  }
+}

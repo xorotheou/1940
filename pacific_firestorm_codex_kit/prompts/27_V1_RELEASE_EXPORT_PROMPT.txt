@@ -1,0 +1,23 @@
+Prepare Pacific Firestorm V1 release export.
+
+Tasks:
+1. Create or update export presets for desktop.
+2. Confirm version number.
+3. Create release folder structure.
+4. Run final test gate checklist.
+5. Export release build if Godot export is available.
+6. Create RELEASE_NOTES_V1.md.
+7. Create FINAL_V1_AUDIT.md.
+8. Create KNOWN_LIMITATIONS_V1.md.
+9. Create LICENSES_ASSETS.md.
+10. Create TEST_RESULTS_V1.md or finalize existing file.
+
+Release notes must include:
+- game summary
+- controls
+- missions included
+- known limitations
+- how to run
+- asset/license notes
+
+Do not call the release complete until the export gate passes or a blocker is documented.

@@ -1,0 +1,9 @@
+{
+  "id": "stage_01",
+  "name": "Open Pacific",
+  "wave_file": "res://data/waves/stage_01_waves.json",
+  "environment": "open_pacific_day",
+  "music": "stage_01_music",
+  "boss": "boss_bomber",
+  "target_duration_seconds": 180
+}

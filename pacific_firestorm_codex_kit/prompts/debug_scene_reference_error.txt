@@ -1,0 +1,7 @@
+Godot reports a missing or invalid scene/script reference:
+
+[paste exact error]
+
+Inspect the related .tscn and .gd files.
+Fix resource paths, node paths, exported scene references, or preload paths as needed.
+Do not change gameplay behaviour unless required.

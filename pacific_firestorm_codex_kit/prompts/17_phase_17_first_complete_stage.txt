@@ -1,0 +1,29 @@
+Implement Phase 17: first complete stage.
+
+Create Stage 1: Open Pacific.
+
+Stage content:
+- scrolling ocean
+- clouds
+- at least 3 fighter waves
+- at least 1 bomber wave
+- at least 1 power-up drop
+- enemy bullets
+- boss encounter
+- mission complete screen
+
+Update:
+- data/stages/stage_01.json
+- data/waves/stage_01_waves.json
+- docs/game_design.md
+
+Stage duration target:
+2 to 4 minutes for the prototype.
+
+Acceptance criteria:
+- Player can start from title screen.
+- Player can play through Stage 1.
+- Enemies spawn in waves.
+- Player can die and get game over.
+- Player can defeat boss and get mission complete.
+- Score/lives/HUD work throughout.

@@ -1,0 +1,83 @@
+data_examples/enemy_types.json
+data_examples/powerup_types.json
+data_examples/stage_01.json
+data_examples/stage_01_waves.json
+data_examples/weapon_types.json
+docs/REPO_STRUCTURE.txt
+docs/STAGE_1_DESIGN_PROMPT.txt
+docs/TESTING_CHECKLIST.txt
+docs/VISUAL_ASSET_PROMPTS.txt
+pdfs/00_All_In_One_Codex_Godot_Blueprint.pdf
+pdfs/01_Project_Overview_and_Goal.pdf
+pdfs/02_Codex_Master_Agent_Prompt.pdf
+pdfs/03_Phased_Build_Prompts.pdf
+pdfs/04_Godot_Technical_Blueprint.pdf
+pdfs/05_Testing_Debugging_Checklists.pdf
+pdfs/06_Visual_Art_Stage_Direction.pdf
+prompts/00_MASTER_CODEX_PROMPT.txt
+prompts/00_phase_0_repo_setup.txt
+prompts/01_phase_1_godot_skeleton.txt
+prompts/02_phase_2_player_aircraft_placeholder.txt
+prompts/03_phase_3_player_shooting_and_bullet_system.txt
+prompts/04_phase_4_enemy_base_and_first_enemy.txt
+prompts/05_phase_5_bullet_enemy_collision_and_score.txt
+prompts/06_phase_6_player_damage_and_lives.txt
+prompts/07_phase_7_enemy_spawner.txt
+prompts/08_phase_8_enemy_bullets.txt
+prompts/09_phase_9_object_pooling.txt
+prompts/10_phase_10_scrolling_ocean_and_environment.txt
+prompts/11_phase_11_power-ups.txt
+prompts/12_phase_12_weapon_upgrades.txt
+prompts/13_phase_13_boss_system.txt
+prompts/14_phase_14_game_states_and_menus.txt
+prompts/15_phase_15_effects_pass.txt
+prompts/16_phase_16_audio_hooks.txt
+prompts/17_phase_17_first_complete_stage.txt
+prompts/18_phase_18_ultra-realistic_visual_direction_pass.txt
+prompts/19_phase_19_performance_optimization.txt
+prompts/20_phase_20_export_preparation.txt
+prompts/ALL_DEBUG_PROMPTS.txt
+prompts/ALL_PHASE_PROMPTS.txt
+prompts/debug_collision_not_working.txt
+prompts/debug_general_error.txt
+prompts/debug_json_wave_loading_broken.txt
+prompts/debug_performance_issue.txt
+prompts/debug_player_movement_broken.txt
+prompts/debug_scene_reference_error.txt
+templates/.github_pull_request_template.md
+templates/AGENTS.md
+templates/README_TEMPLATE.md
+
+
+UPDATE: Uploaded Plane Assets Added
+- assets/plane_assets/raw_jpg/ : six original plane JPGs
+- assets/plane_assets/transparent_png/ : background-removed PNG plane assets
+- assets/plane_assets/preview_512_png/ : 512 px previews
+- data_examples/plane_assets/plane_asset_manifest.json
+- prompts/21_phase_21_import_uploaded_plane_assets.txt
+- docs/UPLOADED_PLANE_ASSETS_GUIDE.md
+
+
+# V1 finished game agent extension added
+START_HERE_V1_AGENT_CODING.md
+agent_loop_scripts/v1_data_validate.py
+agent_loop_scripts/v1_no_placeholder_scan.py
+agent_loop_scripts/v1_quality_loop.sh
+docs/V1_AGENT_LOOP.md
+docs/V1_AUTOMATED_TEST_PLAN.md
+docs/V1_DEFINITION_OF_DONE.md
+docs/V1_FINISHED_GAME_SPEC.md
+docs/V1_NO_PLACEHOLDER_POLICY.md
+docs/V1_QUALITY_GATES.md
+docs/V1_RELEASE_BUILD_PLAN.md
+docs/V1_ZIP_AUDIT.md
+prompts/22_MASTER_V1_FINISHED_GAME_AGENT_PROMPT.txt
+prompts/23_SINGLE_SHOT_AUTONOMOUS_V1_BUILD_LOOP.txt
+prompts/24_V1_FULL_GAME_CONTENT_PROMPT.txt
+prompts/25_V1_NO_PLACEHOLDER_REPLACEMENT_PROMPT.txt
+prompts/26_V1_TEST_FIX_LOOP_PROMPT.txt
+prompts/27_V1_RELEASE_EXPORT_PROMPT.txt
+prompts/28_AGENT_DAILY_WORKER_LOOP_PROMPT.txt
+prompts/29_V1_CODE_REVIEW_PROMPT.txt
+release_gates/V1_GATE_MATRIX.json
+pdfs/07_V1_Finished_Game_Agent_Loop.pdf

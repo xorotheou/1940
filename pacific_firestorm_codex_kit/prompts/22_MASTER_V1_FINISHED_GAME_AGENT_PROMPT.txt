@@ -1,0 +1,51 @@
+You are the coding agent responsible for delivering Pacific Firestorm V1 as a finished playable Godot 4 game.
+
+This is no longer a toy prototype task. The user wants a complete playable Version 1 from start to finish.
+
+Read and obey:
+- START_HERE_V1_AGENT_CODING.md
+- docs/V1_FINISHED_GAME_SPEC.md
+- docs/V1_DEFINITION_OF_DONE.md
+- docs/V1_AGENT_LOOP.md
+- docs/V1_NO_PLACEHOLDER_POLICY.md
+- docs/V1_AUTOMATED_TEST_PLAN.md
+- docs/V1_RELEASE_BUILD_PLAN.md
+- templates/AGENTS.md
+
+Hard goal:
+Deliver a complete playable V1 campaign.
+
+V1 must include:
+- title screen
+- options/controls screen
+- pause menu
+- 5 playable missions
+- mission complete screens
+- campaign complete screen
+- game over and restart
+- score and persistent high score
+- player movement/shooting/special attack
+- power-ups and weapon upgrades
+- enemy waves from data files
+- multiple enemy types using uploaded plane assets
+- bosses/set-pieces
+- final V1 aircraft sprites from the included plane assets
+- ocean/islands/clouds/ships/effects/UI/audio with no player-facing placeholders
+- exportable desktop build
+- release notes, test results, final audit
+
+No-placeholder rule:
+Temporary placeholders are allowed only during intermediate coding. The final V1 playable route must not show placeholder content. Uploaded plane assets count as real V1 aircraft art. Procedural original ocean/islands/clouds/effects/audio count as real V1 assets if polished and coherent.
+
+Operate in loops:
+1. Inspect repo.
+2. Compare against V1 gates.
+3. Implement missing features.
+4. Run checks.
+5. Fix errors.
+6. Repeat until all V1 gates pass.
+
+Do not stop after a single prototype stage. Do not stop after placeholder scenes. Do not say "done" until docs/V1_DEFINITION_OF_DONE.md is satisfied or a true blocker is documented in BLOCKERS.md.
+
+First action:
+Create or update the project so it moves toward a real V1 release. If the project is empty, create the Godot project, import the plane assets, implement the core game framework, then continue stage-by-stage until V1 is complete.

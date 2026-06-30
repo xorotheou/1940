@@ -1,0 +1,83 @@
+# general_error
+The Godot project has this error:
+
+[paste exact error]
+
+Please fix the smallest possible cause.
+Do not rewrite unrelated systems.
+Explain which file/path caused it.
+Keep the project runnable.
+Update docs/known_issues.md if the issue reveals an unfinished system.
+
+# scene_reference_error
+Godot reports a missing or invalid scene/script reference:
+
+[paste exact error]
+
+Inspect the related .tscn and .gd files.
+Fix resource paths, node paths, exported scene references, or preload paths as needed.
+Do not change gameplay behaviour unless required.
+
+# collision_not_working
+Collision is not working correctly:
+
+Observed behaviour:
+[describe what happens]
+
+Expected behaviour:
+[describe expected result]
+
+Check:
+- Area3D setup
+- CollisionShape3D
+- collision layers/masks
+- signal connections
+- bullet hit logic
+- enemy take_damage()
+- player take_damage()
+
+Fix the minimum necessary code and document the cause.
+
+# player_movement_broken
+Player movement is broken:
+
+Observed:
+[describe]
+
+Expected:
+The player should move on the X/Z plane using move_left, move_right, move_up, move_down and stay inside playfield bounds.
+
+Check player.gd, input actions, Main.tscn node references, and project.godot input map.
+Fix only the movement/input issue.
+
+# json_wave_loading_broken
+Enemy wave loading is broken:
+
+Observed:
+[describe]
+
+Expected:
+EnemySpawner should load data/waves/stage_01_waves.json and spawn enemies at the specified times.
+
+Check:
+- JSON file path
+- JSON syntax
+- FileAccess usage
+- parsed data validation
+- enemy type mapping
+- scene preload/instantiate logic
+
+Fix the loader and add graceful error messages.
+
+# performance_issue
+Performance drops when many bullets or effects are active.
+
+Please inspect:
+- bullet creation/destruction
+- enemy bullet creation/destruction
+- effect spawning
+- cleanup logic
+- object pooling
+
+Implement the smallest safe optimization.
+Do not change gameplay feel.

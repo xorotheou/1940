@@ -1,0 +1,21 @@
+Implement Phase 9: object pooling for bullets and simple effects.
+
+Create:
+- scripts/bullets/projectile_pool.gd
+- optional scripts/effects/effects_pool.gd
+
+Pooling should support:
+- preloading bullet scenes
+- reusing inactive bullets
+- returning bullets to pool when offscreen or on hit
+- avoiding excessive instantiate/free during gameplay
+
+Do not rewrite the entire project.
+Make the smallest safe change to replace repeated bullet instantiation with pooling.
+
+Acceptance criteria:
+- Player bullets use pool.
+- Enemy bullets use pool if practical.
+- Existing gameplay remains unchanged.
+- No broken collision behaviour.
+- Docs explain how the projectile pool works.

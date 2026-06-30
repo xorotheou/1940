@@ -1,0 +1,32 @@
+Implement Phase 14: game states and menus.
+
+Create:
+- scenes/ui/TitleScreen.tscn
+- scenes/ui/PauseMenu.tscn
+- scenes/ui/GameOverScreen.tscn
+- scenes/ui/MissionCompleteScreen.tscn
+- scripts/ui/title_screen.gd
+- scripts/ui/pause_menu.gd
+- scripts/ui/game_over_screen.gd
+- scripts/ui/mission_complete_screen.gd
+
+Game states:
+- TITLE
+- PLAYING
+- PAUSED
+- GAME_OVER
+- MISSION_COMPLETE
+
+Requirements:
+- Start game from title screen
+- Pause/unpause during gameplay
+- Restart after game over
+- Continue to next mission after mission complete, even if only one mission exists for now
+- No gameplay movement while paused or in menus
+
+Acceptance criteria:
+- Game starts from title screen.
+- Pause menu works.
+- Game over screen works.
+- Mission complete screen works.
+- Restart returns to a playable state.

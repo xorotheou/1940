@@ -1,0 +1,11 @@
+Performance drops when many bullets or effects are active.
+
+Please inspect:
+- bullet creation/destruction
+- enemy bullet creation/destruction
+- effect spawning
+- cleanup logic
+- object pooling
+
+Implement the smallest safe optimization.
+Do not change gameplay feel.

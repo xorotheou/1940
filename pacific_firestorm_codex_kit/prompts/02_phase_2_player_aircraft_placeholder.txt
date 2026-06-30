@@ -1,0 +1,30 @@
+Implement Phase 2: player aircraft placeholder.
+
+Create:
+- scenes/player/Player.tscn
+- scripts/player/player.gd
+
+Player.tscn should use:
+- CharacterBody3D or Area3D-based movement, whichever is cleaner for this arcade shooter
+- a visible placeholder mesh, such as a simple low-poly plane shape or box-based aircraft silhouette
+- a child Node3D named GunPoints
+- at least two child Node3D gun points: LeftGun and RightGun
+- an Area3D or CollisionShape3D for damage hitbox
+
+player.gd should:
+- move the player on the X/Z plane
+- use input actions move_left, move_right, move_up, move_down
+- keep movement arcade-responsive
+- clamp the player inside configurable playfield bounds
+- not implement realistic flight physics
+- expose speed and bounds as exported variables
+
+Update Main.tscn:
+- instance Player.tscn at PlayerSpawn
+
+Acceptance criteria:
+- The player appears in Main.tscn.
+- The player moves in 8 directions.
+- The player cannot leave the playfield.
+- Movement feels immediate and arcade-like.
+- No shooting yet unless trivial hooks are needed.

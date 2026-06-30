@@ -1,0 +1,25 @@
+Implement Phase 12: weapon upgrade system.
+
+Create or update:
+- data/weapons/weapon_types.json
+- scripts/player/player_weapon.gd
+
+Weapon levels:
+Level 1: dual machine guns
+Level 2: wider dual guns + faster fire
+Level 3: triple shot
+Level 4: spread shot
+Special: bomb/rocket attack
+
+Rules:
+- Keep bullets readable.
+- Do not flood the screen so much that gameplay becomes unclear.
+- Make weapon level configurable.
+- Clamp max weapon level.
+- Reset weapon level on death only if current game design says so.
+
+Acceptance criteria:
+- Collecting weapon_upgrade increases weapon level.
+- Different weapon levels visibly change shot pattern.
+- Weapon settings come from data or clearly structured code.
+- Shooting remains stable and performant.

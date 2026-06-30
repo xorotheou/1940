@@ -1,0 +1,19 @@
+Continue working on Pacific Firestorm V1 using the worker loop.
+
+Start by reading:
+- docs/V1_DEFINITION_OF_DONE.md
+- docs/V1_AGENT_LOOP.md
+- docs/TEST_RESULTS_V1.md if it exists
+- docs/KNOWN_LIMITATIONS_V1.md if it exists
+- BLOCKERS.md if it exists
+
+Then:
+1. Identify the most important incomplete V1 gate.
+2. Fix or implement that gate.
+3. Run relevant checks.
+4. Update test/audit docs.
+5. Move to the next gate.
+
+Do not rewrite working systems unless needed.
+Do not broaden scope beyond V1.
+Do not stop because one small task is complete. Continue until V1 gates pass or blocked.

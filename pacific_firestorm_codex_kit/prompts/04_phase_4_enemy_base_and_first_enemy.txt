@@ -1,0 +1,36 @@
+Implement Phase 4: enemy base and first enemy.
+
+Create:
+- scripts/enemies/enemy_base.gd
+- scenes/enemies/EnemyFighter.tscn
+- scripts/enemies/movement_patterns.gd
+
+EnemyFighter.tscn should:
+- be an Area3D or Node3D with Area3D collision
+- have a visible placeholder aircraft mesh
+- have a CollisionShape3D
+- use enemy_base.gd
+
+enemy_base.gd should support:
+- health
+- score_value
+- movement_speed
+- movement_pattern
+- take_damage(amount)
+- die()
+- signal died(score_value)
+- cleanup when offscreen
+
+movement_patterns.gd should include at least:
+- straight_down
+- diagonal_left
+- diagonal_right
+- sine_wave
+
+Update Main.tscn or main.gd temporarily to spawn one enemy for testing.
+
+Acceptance criteria:
+- At least one enemy appears.
+- Enemy moves down the screen.
+- Enemy cleans up when offscreen.
+- Enemy has health and can receive damage through take_damage().

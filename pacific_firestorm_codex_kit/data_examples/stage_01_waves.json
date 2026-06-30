@@ -1,0 +1,65 @@
+[
+  {
+    "time": 1.0,
+    "enemy_type": "fighter",
+    "spawn_x": -4.0,
+    "spawn_z": -18.0,
+    "movement": "diagonal_right"
+  },
+  {
+    "time": 1.3,
+    "enemy_type": "fighter",
+    "spawn_x": 4.0,
+    "spawn_z": -18.0,
+    "movement": "diagonal_left"
+  },
+  {
+    "time": 3.0,
+    "enemy_type": "fighter",
+    "spawn_x": 0.0,
+    "spawn_z": -18.0,
+    "movement": "straight_down"
+  },
+  {
+    "time": 5.0,
+    "enemy_type": "fighter",
+    "spawn_x": -2.5,
+    "spawn_z": -18.0,
+    "movement": "sine_wave"
+  },
+  {
+    "time": 5.2,
+    "enemy_type": "fighter",
+    "spawn_x": 2.5,
+    "spawn_z": -18.0,
+    "movement": "sine_wave"
+  },
+  {
+    "time": 8.0,
+    "enemy_type": "bomber",
+    "spawn_x": 0.0,
+    "spawn_z": -20.0,
+    "movement": "slow_center"
+  },
+  {
+    "time": 13.0,
+    "enemy_type": "heavy_fighter",
+    "spawn_x": -5.0,
+    "spawn_z": -18.0,
+    "movement": "diagonal_right"
+  },
+  {
+    "time": 13.0,
+    "enemy_type": "heavy_fighter",
+    "spawn_x": 5.0,
+    "spawn_z": -18.0,
+    "movement": "diagonal_left"
+  },
+  {
+    "time": 20.0,
+    "enemy_type": "boss_bomber",
+    "spawn_x": 0.0,
+    "spawn_z": -24.0,
+    "movement": "boss_intro"
+  }
+]

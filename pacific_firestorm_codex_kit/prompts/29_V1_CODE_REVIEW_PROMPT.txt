@@ -1,0 +1,28 @@
+Review the Pacific Firestorm repository as a release engineer.
+
+Assess whether it meets V1:
+- complete 5-mission campaign
+- no placeholders in playable route
+- imported aircraft assets used correctly
+- score/lives/high score
+- menus and game states
+- power-ups and weapons
+- bosses
+- audio
+- effects
+- export setup
+- docs and release notes
+
+Find:
+- bugs
+- broken paths
+- missing scenes
+- hard-coded test content
+- TODO systems
+- unimplemented menu buttons
+- unused broken assets
+- performance risks
+- data validation gaps
+- export blockers
+
+Then fix all critical release blockers. Create FINAL_V1_AUDIT.md with pass/fail status for every gate.

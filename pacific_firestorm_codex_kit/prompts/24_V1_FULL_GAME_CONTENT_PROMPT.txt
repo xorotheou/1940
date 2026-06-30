@@ -1,0 +1,42 @@
+Implement full V1 game content for Pacific Firestorm.
+
+Create a 5-mission campaign:
+
+Mission 1 - Open Pacific
+- calm ocean
+- basic fighter waves
+- first bomber
+- simple boss bomber encounter
+
+Mission 2 - Island Chain
+- island scenery
+- AA guns or ground hazards
+- elite camo fighters
+- denser waves
+- island-base boss/set-piece
+
+Mission 3 - Carrier Raid
+- ships and carrier visuals
+- fast interceptors
+- bomber waves
+- carrier boss/set-piece
+
+Mission 4 - Storm Front
+- clouds/rain ambience
+- harder visibility but still readable bullets
+- mixed enemies
+- ace squadron boss
+
+Mission 5 - Final Assault
+- all enemy types
+- high intensity waves
+- final six-engine super bomber boss
+- campaign complete screen
+
+Requirements:
+- All missions are data-driven with stage/wave files.
+- Every mission can be completed.
+- Every mission has distinct wave pacing.
+- Every mission ends cleanly and advances correctly.
+- No mission is just a test wave.
+- Update docs/game_design.md and docs/TEST_RESULTS_V1.md.

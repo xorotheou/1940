@@ -1,0 +1,28 @@
+Implement Phase 13: boss system.
+
+Create:
+- scripts/enemies/boss_controller.gd
+- scenes/enemies/BossBomber.tscn or BossCarrier.tscn
+
+Boss requirements:
+- high health
+- visible large placeholder model
+- intro movement
+- multiple attack phases
+- phase changes based on health percentage
+- emits boss_defeated signal
+- gives large score reward
+- triggers mission complete when defeated
+
+Boss phases:
+Phase 1: simple forward fire
+Phase 2: spread shots
+Phase 3: faster fire + side turrets
+Phase 4: damaged desperation pattern
+
+Acceptance criteria:
+- Boss appears at end of wave.
+- Boss has multiple phases.
+- Boss can be damaged and defeated.
+- Mission complete triggers on boss defeat.
+- HUD can display boss health if simple.

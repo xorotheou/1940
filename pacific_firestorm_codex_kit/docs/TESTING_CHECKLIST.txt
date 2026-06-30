@@ -1,0 +1,17 @@
+After every phase, check:
+
+1. Godot opens the project.
+2. Main.tscn loads.
+3. Press Play.
+4. No script parse errors.
+5. No missing scene reference errors.
+6. Player still appears.
+7. Player still moves.
+8. Player can still shoot if shooting is implemented.
+9. Enemies still spawn if spawner is implemented.
+10. Bullets still collide correctly.
+11. Score/lives/HUD still update.
+12. Pause/game over still works if implemented.
+13. No console spam.
+14. No huge performance drop.
+15. docs/known_issues.md is updated.

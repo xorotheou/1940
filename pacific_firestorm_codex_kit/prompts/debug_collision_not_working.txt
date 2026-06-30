@@ -1,0 +1,18 @@
+Collision is not working correctly:
+
+Observed behaviour:
+[describe what happens]
+
+Expected behaviour:
+[describe expected result]
+
+Check:
+- Area3D setup
+- CollisionShape3D
+- collision layers/masks
+- signal connections
+- bullet hit logic
+- enemy take_damage()
+- player take_damage()
+
+Fix the minimum necessary code and document the cause.

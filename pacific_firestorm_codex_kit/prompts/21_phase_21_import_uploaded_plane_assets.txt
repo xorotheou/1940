@@ -1,0 +1,32 @@
+Implement Phase 21: import the uploaded top-down plane assets.
+
+The ZIP now contains plane assets under:
+- assets/plane_assets/raw_jpg/
+- assets/plane_assets/transparent_png/
+- assets/plane_assets/preview_512_png/
+- data_examples/plane_assets/plane_asset_manifest.json
+
+Use these images as placeholder/reference aircraft in the Godot project.
+
+Requirements:
+1. Import the transparent PNG versions as Texture2D placeholders.
+2. Create or update plane scenes so the uploaded assets can be assigned to:
+   - player aircraft
+   - enemy light fighter
+   - enemy bomber
+   - elite camo fighter
+   - alternate fighter
+   - boss super bomber
+3. Keep the game logic independent of the exact image size.
+4. Use exported scale variables per aircraft type.
+5. Use simple Area3D hitboxes, not exact pixel/silhouette collision.
+6. Add optional outline/glow shader or documentation if readability is poor over ocean/cloud backgrounds.
+7. Update data/enemies/enemy_types.json or equivalent so each enemy type can reference its placeholder asset.
+8. Keep the game runnable after import.
+
+Acceptance criteria:
+- Player aircraft uses pf_plane_01_player_twin_boom_p38_style_transparent.png or can be assigned to it.
+- At least three enemy types use the uploaded plane placeholders.
+- Boss placeholder can use pf_plane_06_boss_super_bomber_transparent.png.
+- No hard-coded absolute paths.
+- Asset usage is documented in README or docs/art_direction.md.
